@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+} 
+body {
+    margin: 0;
+    font-family:"Lucida Grande";
+    background-image: url("images.jpg");
+}
+header{
+    padding: 12px 24px;
+    width: 100%;
+    background-color: whitesmoke;
+    position:absolute;
+    top: 0;
+    z-index: 10;
+}
+.header-left{
+    float: left;
+}
+.header h1{
+    font-weight: bolder;
+}
+.logo{
+    width: 50px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    display: block;
+}
+.navbar{
+    float: right;
+    margin-right: -25px;
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 13px;
+    margin: 0 auto;
+    align-items: center;
+    text-decoration: none;
+}
+.paragraph{
+    display: grid;
+    text-align: center;
+    font-size: large;
+}
+.navbar{
+    float: right;
+}
+.dropbtn{
+    width: 40px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn{
+    margin-top: 15px;
+}
+.dropdown-content .list{
+    display:list-item;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    color: white;
+}
+.paragraph{
+    color: black;
+    font-size: large;
+    font-weight: bold ;
+}
+.paragraph img{
+    width:20%;
+    align-content: center;
+    padding: 10px;
+    align-content: flex-end;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: dotted;
+    color: black;
+}
+.content{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.content .heading1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:#3399ff;
+    font-size: larger;
+    font-family: cursive;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.project{
+    text-decoration: none;
+}
+.skills-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: grey;
+    text-align: center;
+    display:inline-table;
+    margin-left: 100px;
+}
+.skills-wrapper .heading2{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: black;
+}
+.lesson {
+    float: left;
+    width: 25%;
+}
+.lesson-icon {
+    position: relative;
+}
+.lesson-icon img{
+    width:145px;
+}
+.lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color:white;
+    font-weight: bolder;
+}
+.lesson-wrapper{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.heading{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: black;
+    font-family: cursive;
+    background-color:whitesmoke;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.heading h2{
+    color: black;
+    font-size: 27px;
+}
+.Social1{
+    display: inline-block;
+    margin: 5px 40px 2px 40px;
+}
+footer{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    background-color: #641EF7;
+}
+footer img{
+    width:50px;
+}
+footer p{
+    color: #b3aeb5;
+    font-size: 14px;
+}
+footer .field{
+    justify-content: right;
+    color: white;
+    /* justify-content: right; */
+    display: grid;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+footer .field .email{
+    width: 200px;
+    size: 20px;
+    margin-top: 20px;
+}
+footer .field .btn{
+    width: 100px;
+    background-color: red;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+@media all and(max-width:670px){
+    header{
+        padding: 12px 24px;
+        width: 100%;
+        background-color: whitesmoke;
+        position:absolute;
+        top: 0;
+        z-index: 10;
+    }
+    .header-left{
+        float: left;
+        display: block;
+    }
+    .logo{
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .navbar{
+        float:left;
+        margin-right: -25px;
+        text-decoration: none;
+        width: 100%;
+    }
+    .dropbtn{
+        width: 100px;
+    }
+    /* .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: whitesmoke;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    } */
+}
